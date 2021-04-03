@@ -34,3 +34,10 @@ kafka-config:
     - twitter-topic
   num-of-partitions: 1
   replication-factor: 1  
+
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://localhost:9200
+  connect-timeout-ms: 5000
+  socket-timeout-ms: 30000
+  is-repository: true
